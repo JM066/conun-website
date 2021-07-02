@@ -1,0 +1,16 @@
+.Navbar {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  height: calc(60px - 2rem);
+  justify-content: space-between;
+  padding: 1rem;
+
+  & .Pages {
+    display: flex;
+
+    & :not(:last-child) {
+      margin-right: 75px;
+    }
+  }
+}
